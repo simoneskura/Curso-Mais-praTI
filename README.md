@@ -1,4 +1,4 @@
- Curso Mais Prati – Formação Dev Full Stack Júnior
+Curso Mais Prati – Formação Dev Full Stack Júnior
 
 Este repositório foi criado para organizar meus estudos e práticas da formação Dev Full Stack Júnior da
 +praTI: https://www.maisprati.com.br/
@@ -13,8 +13,7 @@ Módulo 1 – JavaScript
 - Funções
 - Manipulação de arrays e objetos
 
-Lista de Exercícios Resolvidos
-
+Primeira lista de Exercícios Resolvidos
 
 Cada exercício está em um arquivo separado dentro da pasta `Módulo 1 - Lista 1`:
 
@@ -36,6 +35,20 @@ Cada exercício está em um arquivo separado dentro da pasta `Módulo 1 - Lista 
 
 ---
 
+Segunda lista de Exercícios Resolvidos
+
+Cada exercício está em um arquivo separado dentro da pasta `Módulo 1 - Lista 2`:
+
+1. Validação de datas reais com ano bissexto
+2. Jogo de adivinhação com número aleatório
+3. Extração de palavras únicas de uma string
+4. Fatorial recursivo
+5. Função debounce
+6. Função memoize
+7. Mapeamento e ordenação de produtos por preço
+8. Agrupamento de vendas por cliente usando reduce
+9. Conversão entre pares e objeto
+
 Como executar os exercícios localmente
 
 1. Instale o Node.js no seu computador:
@@ -45,10 +58,11 @@ https://nodejs.org
    git clone https://github.com/simoneskura/Curso-Mais-praTI.git
 3. Navegue até a pasta do repositório:
 cd Curso-Mais-praTI/Módulo\ 1\ -\ Lista\ 1
+ou cd Curso-Mais-praTI/Módulo\ 1\ -\ Lista\ 2
 4. Execute qualquer exercício com o Node.js:
 node exercicio01.js
 (Troque o nome do arquivo para testar outro exercício)
 
 Caso prefira não usar Git, você também pode baixar o repositório como .zip na página inicial clicando em Code > Download ZIP.
 
-
+  
