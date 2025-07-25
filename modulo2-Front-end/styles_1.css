@@ -1,0 +1,27 @@
+  /* Estilo para header, main e footer */
+header, main, footer {
+  background-color: #f0f0f0;  /* cor de fundo clara */
+  color: #333;                /* cor do texto */
+  margin: 20px;
+  padding: 15px;
+  border: 2px solid #ccc;     /* contorno visível */
+}
+
+/* Aumenta tamanho da fonte e sublinha todos os h2 */
+h2 {
+  font-size: 1.5em;
+  text-decoration: underline;
+}
+
+/* Classe destaque: texto em itálico e fundo suave */
+.destaque {
+  font-style: italic;
+  background-color: #fef6e4;
+}
+
+/* ID importante: borda superior mais espessa */
+#importante {
+  border-top: 5px solid #e63946;
+  padding-top: 10px;
+}
+
