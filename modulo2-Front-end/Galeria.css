@@ -1,0 +1,52 @@
+/* Contêiner com Flexbox para centralizar a galeria */
+.galeria-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  flex-wrap: wrap; /* permite quebra de linha */
+}
+
+/* Grid para organizar as imagens */
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 colunas fixas inicialmente */
+  gap: 20px;
+}
+
+/* Estilo das figuras */
+figure {
+  text-align: center;
+  margin: 0;
+}
+
+img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+}
+
+/* Legenda */
+figcaption {
+  margin-top: 8px;
+  font-size: 0.9em;
+  color: #555;
+}
+
+/* Responsividade para telas médias */
+@media (max-width: 900px) {
+  .galeria {
+    grid-template-columns: repeat(2, 1fr); /* 2 colunas em telas menores */
+  }
+}
+
+/* Responsividade para telas bem pequenas */
+@media (max-width: 500px) {
+  .galeria {
+    grid-template-columns: 1fr; /* 1 coluna no celular */
+}
+}
+
+  
